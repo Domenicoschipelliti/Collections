@@ -20,7 +20,7 @@ public class Main {
 
 
         for (int i=0;i<lista.length;i++){
-            System.out.println(lista[i]);
+            System.out.println(lista[num-1]);
         }
 
 
