@@ -15,6 +15,15 @@ public class Main {
        System.out.println("dimmi una parola: ");
        String parola=ute.nextLine();
 
+          String[] lista=new String[num];
+          lista[num-1]=parola;
+
+
+        for (int i=0;i<lista.length;i++){
+            System.out.println(lista[i]);
+        }
+
+
 
 
 
